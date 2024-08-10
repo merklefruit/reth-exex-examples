@@ -3144,6 +3144,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "hashmore"
+version = "0.1.0"
+source = "git+https://github.com/merklefruit/hashmore?rev=24f7907#24f79073e69dbd6d7c3b8260f492b57eb4a8b2c1"
+dependencies = [
+ "hashbrown 0.14.5",
+]
+
+[[package]]
 name = "hdrhistogram"
 version = "7.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4060,6 +4068,7 @@ dependencies = [
  "async-trait",
  "clap",
  "eyre",
+ "hashmore",
  "kona-derive",
  "parking_lot 0.12.3",
  "reqwest",
@@ -4078,7 +4087,7 @@ dependencies = [
 [[package]]
 name = "kona-derive"
 version = "0.0.2"
-source = "git+https://github.com/ethereum-optimism/kona?rev=4ef271b#4ef271b4dbf1ef673e228b2070ce95930e36b280"
+source = "git+https://github.com/ethereum-optimism/kona?rev=e069eb4#e069eb4178af1a2a7ea1f772f3f35c240d178534"
 dependencies = [
  "alloc-no-stdlib",
  "alloy-consensus 0.2.0",
@@ -4113,7 +4122,7 @@ dependencies = [
 [[package]]
 name = "kona-primitives"
 version = "0.0.1"
-source = "git+https://github.com/ethereum-optimism/kona?rev=4ef271b#4ef271b4dbf1ef673e228b2070ce95930e36b280"
+source = "git+https://github.com/ethereum-optimism/kona?rev=e069eb4#e069eb4178af1a2a7ea1f772f3f35c240d178534"
 dependencies = [
  "alloy-consensus 0.2.0",
  "alloy-eips 0.2.0",
